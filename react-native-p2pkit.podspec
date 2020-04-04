@@ -15,10 +15,18 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "p2pkit"
+  s.dependency "React"
+
+  # http://p2pkit.io/developer/get-started/ios/
+  s.dependency "CoreBluetooth.framework"
+  s.dependency "libicucore.tbd"
+  s.dependency "CFNetwork.framework"
+  s.dependency "Security.framework"
+  s.dependency "Foundation.framework"
 
   s.authors      = { "Your Name" => "yourname@email.com" }
   s.homepage     = "https://github.com/beameio/react-native-p2pkit"
-  s.source       = { :git => "https://github.com/beameio/react-native-p2pkit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/beameio/react-native-p2pkit.git" }
 
 end
 
