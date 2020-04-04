@@ -1,13 +1,17 @@
 {
   "name": "react-native-p2pkit",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "index.js",
   "description": "p2pkit is a proximity framework for iOS and Android",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "p2pkit","proximity", "bluetooth", "discovery", "p2p"
+    "p2pkit",
+    "proximity",
+    "bluetooth",
+    "discovery",
+    "p2p"
   ],
   "repository": {
     "type": "git",
